@@ -1,0 +1,6 @@
+Arrays are data structures stored in contiguous memory locations
+
+[0, 1, 2.... n-1] -> Arrays of String, Integer, Map .. and so on
+
+Brute -> Better -> Optimal [Solution approach]
+
