@@ -4,3 +4,5 @@ Arrays are data structures stored in contiguous memory locations
 
 Brute -> Better -> Optimal [Solution approach]
 
+Max elements that can be stored -> 10^6 [if declared inside Main]
+                                   else 10^7 [if declared globally]
