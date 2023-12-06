@@ -49,12 +49,10 @@ public class MissingNumber {
     private static int findMissingNumberOptimalXor(int[] arr, int n) {
         int xor1 = 0;
         int xor2 = 0;
-        n = n - 1;
         for (int i = 0; i < n; i++) {
             xor2 = xor2 ^ arr[i];
             xor1 = xor1 ^ (i + 1);
         }
-        xor1 = xor1 ^ n;
         return xor1 ^ xor2; //TC -> O(n) SC -> O(1)
     }
 
