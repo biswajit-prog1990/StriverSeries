@@ -6,3 +6,9 @@ Brute -> Better -> Optimal [Solution approach]
 
 Max elements that can be stored -> 10^6 [if declared inside Main]
                                    else 10^7 [if declared globally]
+
+Subarray - Contiguous part of the array
+    like -
+    arr[] = [1,2,3,1,1,1,1,4,2,3]
+    subarray -> [1,2], [1], [1,4,2] ... and so on
+    not a subarray -> [1,2,3] ... this is a subsequence
