@@ -17,7 +17,7 @@ public class BestTimeBuySellStocks {
 
     private static int findMaxProfit(int[] arr, int n) {
         int mini = arr[0], profit = 0;
-        for (int i = 0; i < n; i++) {
+        for (int i = 1; i < n; i++) {
             int cost = arr[i] - mini;
             profit = Math.max(profit, cost);
             mini = Math.min(mini, arr[i]);
